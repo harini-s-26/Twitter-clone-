@@ -1,0 +1,21 @@
+.body{
+  background-color: black;
+}
+.layout {
+    display: grid;
+    grid-template-columns: 275px auto 350px;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: black;
+ 
+    
+  }
+.layout__left-sidebar{
+  background-color: black;
+}
+  
+  .layout__right-sidebar {
+    position: fixed;
+    width: 350px;
+    background-color: black;
+  }

@@ -1,0 +1,146 @@
+*{      background-color: black;
+        margin: 0%;
+        padding: 0%;
+}
+.content{
+    margin-left: 600px;
+    margin-top: 30px;
+  
+  
+
+}
+.content img{
+    margin-left: -10px;
+}
+.heading{
+    margin-left: 595px;
+    margin-top: 20px;
+    font-size: 20.4px;
+    font-family: verdana;
+    color: white;
+}
+
+.main{
+        margin-left: 560px;
+
+}
+.form input{
+    padding:12px 8px 8px 8px;
+    width:318px;
+    height:43px;
+    margin-top: 20px;
+    margin-left: 35px;
+    border: solid 1px gray;
+    color:blanchedalmond;
+    border-radius: 5px;
+    outline:none;
+    transition: 0.4s;
+   
+
+}
+.user{
+  position:absolute;
+  transform:translateY(-220%);
+  right: 740px;
+  color:grey;
+  transition: 0.4s;
+}
+.password{
+  position:absolute;
+  transform:translateY(-240%);
+  right: 870px;
+  color:grey;
+  transition: 0.4s;
+}
+
+input:focus{
+  border-color: #1DA1F2;
+  border-style: solid;
+  border-radius: 5px;
+
+}
+input:focus~.user
+{
+  transform:translateY(-330%);
+  left:605px;
+
+	color:#1DA1F2;
+    font-size:14px;
+}
+input:focus~.password
+{
+	
+transform:translateY(-330%);
+left:605px;
+
+	color:#1DA1F2;
+	font-size:14px;
+ 
+}
+.form button
+{
+
+    padding: 20px;
+    width:340px;
+    margin-top: 30px;
+    padding: 15px;
+    margin-left: 35px;
+    color:white;
+    font-weight: bold;
+    background-color:#1DA1F2;
+    border-radius: 34px;
+    border-color: black;
+}
+.form button:hover{
+    background-color: rgb(6, 108, 243);
+}
+.forgot{
+        margin-left: 610px;
+        margin-top: 40px; 
+        text-decoration:none;
+        font-family:Segoe UI;
+        font-size: 16.5px;
+
+        
+}
+.signup{
+        margin-left: 770px;
+        margin-top: -22px;
+        font-family:Segoe UI;
+        font-size: 16.5px;
+       
+}
+.forgot a
+{
+    color: #1DA1F2; 
+}
+
+.forgot a:link {
+  text-decoration: none;
+}
+.forgot a:visited {
+  text-decoration: none;
+}
+.forgot a:hover {
+  text-decoration: underline;
+}
+.forgot a:active {
+  text-decoration: underline;
+}
+.signup a{
+    color: #1DA1F2; 
+
+}
+.signup a:link {
+  text-decoration: none;
+}
+.signup a:visited {
+  text-decoration: none;
+}
+.signup a:hover {
+  text-decoration: underline;
+}
+.signup a:active {
+  text-decoration: underline;
+}
+
