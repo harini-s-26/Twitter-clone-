@@ -1,2 +1,2 @@
 # Twitter-clone
-Done using HTML,CSS and JavaScript
+Done using HTML and CSS
